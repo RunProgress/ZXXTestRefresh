@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11FF45EF209026AD003B9D8D /* UIScrollView+ZXXPullRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF45E7209026AD003B9D8D /* UIScrollView+ZXXPullRefresh.m */; };
+		11FF45F0209026AD003B9D8D /* XXFreshAnimationHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF45E8209026AD003B9D8D /* XXFreshAnimationHeader.m */; };
+		11FF45F1209026AD003B9D8D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 11FF45E9209026AD003B9D8D /* .gitkeep */; };
+		11FF45F2209026AD003B9D8D /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 11FF45EC209026AD003B9D8D /* ReplaceMe.m */; };
+		11FF45F3209026AD003B9D8D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 11FF45EE209026AD003B9D8D /* .gitkeep */; };
 		2411C27C20E011DEF227A553 /* Pods_ZXXRefreshAniamtion_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 789156FEFC79BD327B1FFB82 /* Pods_ZXXRefreshAniamtion_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,11 +42,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2BC6B8C1CCCCFADACCEDF9B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		11FF45E7209026AD003B9D8D /* UIScrollView+ZXXPullRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+ZXXPullRefresh.m"; sourceTree = "<group>"; };
+		11FF45E8209026AD003B9D8D /* XXFreshAnimationHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXFreshAnimationHeader.m; sourceTree = "<group>"; };
+		11FF45E9209026AD003B9D8D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		11FF45EA209026AD003B9D8D /* UIScrollView+ZXXPullRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+ZXXPullRefresh.h"; sourceTree = "<group>"; };
+		11FF45EB209026AD003B9D8D /* XXFreshAnimationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXFreshAnimationHeader.h; sourceTree = "<group>"; };
+		11FF45EC209026AD003B9D8D /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		11FF45EE209026AD003B9D8D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		2BC6B8C1CCCCFADACCEDF9B7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		45B31926E055ABD5687B371D /* Pods-ZXXRefreshAniamtion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXXRefreshAniamtion_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXXRefreshAniamtion_Example/Pods-ZXXRefreshAniamtion_Example.release.xcconfig"; sourceTree = "<group>"; };
 		476CF24352C01217C2C068A6 /* Pods-ZXXRefreshAniamtion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXXRefreshAniamtion_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXXRefreshAniamtion_Tests/Pods-ZXXRefreshAniamtion_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		4C7B8A1E4678355750E49E3C /* ZXXRefreshAniamtion.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZXXRefreshAniamtion.podspec; path = ../ZXXRefreshAniamtion.podspec; sourceTree = "<group>"; };
-		4ED352CC26A749474A95690E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4C7B8A1E4678355750E49E3C /* ZXXRefreshAniamtion.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZXXRefreshAniamtion.podspec; path = ../ZXXRefreshAniamtion.podspec; sourceTree = "<group>"; };
+		4ED352CC26A749474A95690E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZXXRefreshAniamtion_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXXRefreshAniamtion_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,9 +107,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11FF45E5209026AD003B9D8D /* ZXXRefreshAniamtion */ = {
+			isa = PBXGroup;
+			children = (
+				11FF45E6209026AD003B9D8D /* Classes */,
+				11FF45ED209026AD003B9D8D /* Assets */,
+			);
+			name = ZXXRefreshAniamtion;
+			path = ../ZXXRefreshAniamtion;
+			sourceTree = "<group>";
+		};
+		11FF45E6209026AD003B9D8D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				11FF45E7209026AD003B9D8D /* UIScrollView+ZXXPullRefresh.m */,
+				11FF45E8209026AD003B9D8D /* XXFreshAnimationHeader.m */,
+				11FF45E9209026AD003B9D8D /* .gitkeep */,
+				11FF45EA209026AD003B9D8D /* UIScrollView+ZXXPullRefresh.h */,
+				11FF45EB209026AD003B9D8D /* XXFreshAnimationHeader.h */,
+				11FF45EC209026AD003B9D8D /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		11FF45ED209026AD003B9D8D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				11FF45EE209026AD003B9D8D /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				11FF45E5209026AD003B9D8D /* ZXXRefreshAniamtion */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for ZXXRefreshAniamtion */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -278,6 +322,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				11FF45F1209026AD003B9D8D /* .gitkeep in Resources */,
+				11FF45F3209026AD003B9D8D /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -356,7 +402,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* ZXXAppDelegate.m in Sources */,
+				11FF45F0209026AD003B9D8D /* XXFreshAnimationHeader.m in Sources */,
+				11FF45EF209026AD003B9D8D /* UIScrollView+ZXXPullRefresh.m in Sources */,
 				6003F5A7195388D20070C39A /* ZXXViewController.m in Sources */,
+				11FF45F2209026AD003B9D8D /* ReplaceMe.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,6 @@
+framework module ZXXRefreshAniamtion {
+  umbrella header "ZXXRefreshAniamtion-umbrella.h"
+
+  export *
+  module * { export * }
+}

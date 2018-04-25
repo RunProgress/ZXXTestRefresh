@@ -1,0 +1,16 @@
+PODS:
+  - ZXXRefreshAniamtion (0.1.0)
+
+DEPENDENCIES:
+  - ZXXRefreshAniamtion (from `../`)
+
+EXTERNAL SOURCES:
+  ZXXRefreshAniamtion:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZXXRefreshAniamtion: 47dc9583db72acae87c55f7813396b5ec13298cb
+
+PODFILE CHECKSUM: 131e8482b6cac489324edb87842c255e4ae254f2
+
+COCOAPODS: 1.5.0
